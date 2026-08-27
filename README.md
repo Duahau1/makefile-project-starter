@@ -2,7 +2,7 @@
 
 - Name: John Doe
 - Email: johndoe@u.boisestate.edu
-- Class: 452-001
+- Class: CS123-001
 
 ## Known Bugs or Issues
 

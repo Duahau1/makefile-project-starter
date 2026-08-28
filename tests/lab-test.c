@@ -3,16 +3,18 @@
 #include "harness/unity.h"
 #include "../src/lab.h"
 
-
-void setUp(void) {
+void setUp(void)
+{
   printf("Setting up tests...\n");
 }
 
-void tearDown(void) {
+void tearDown(void)
+{
   printf("Tearing down tests...\n");
 }
 
-void test_get_greeting(void) {
+void test_get_greeting(void)
+{
   char *greeting = get_greeting("Alice");
   TEST_ASSERT_NOT_NULL(greeting);
   TEST_ASSERT_EQUAL_STRING("Hello, Alice!", greeting);
@@ -27,8 +29,29 @@ void test_get_greeting(void) {
   free(greeting);
 }
 
-int main(void) {
+void test_incorrect_sum(void)
+{
+  const int PARAM_1 = 2;
+  const int PARAM_2 = 3;
+
+  int retVal = incorrect_sum(PARAM_1, PARAM_2);
+  TEST_ASSERT_NOT_EQUAL(PARAM_1 + PARAM_2, retVal);
+}
+
+void test_product(void)
+{
+  const int PARAM_1 = 2;
+  const int PARAM_2 = 3;
+
+  int retVal = product(PARAM_1, PARAM_2);
+  TEST_ASSERT_EQUAL(PARAM_1 * PARAM_2, retVal);
+}
+
+int main(void)
+{
   UNITY_BEGIN();
   RUN_TEST(test_get_greeting);
+  RUN_TEST(test_product);
+  RUN_TEST(test_incorrect_sum);
   return UNITY_END();
 }

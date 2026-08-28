@@ -8,7 +8,10 @@
  * @param name The name to include in the greeting.
  * @return A greeting string.
  */
-char* get_greeting(const char* restrict name);
+char *get_greeting(const char *restrict name);
 
+int incorrect_sum(int x, int y);
+
+int product(int x, int y);
 
 #endif // LAB_H

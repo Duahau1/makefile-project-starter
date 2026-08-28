@@ -49,6 +49,7 @@ void test_product(void)
 
 int main(void)
 {
+  // some comment
   UNITY_BEGIN();
   RUN_TEST(test_get_greeting);
   RUN_TEST(test_product);

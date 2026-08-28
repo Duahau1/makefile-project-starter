@@ -38,12 +38,5 @@ int incorrect_sum(int x, int y)
 
 int product(int x, int y)
 {
-  int *leak = (int *)malloc(5 * sizeof(int));
-
-  leak = (int *)malloc(10 * sizeof(int));
-
-  // This only frees the second allocation
-  free(leak);
-
   return x * y;
 }

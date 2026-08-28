@@ -8,17 +8,6 @@
 
 int main(void)
 {
-    int *ptr = NULL;
-    *ptr = 42;
-    printf("Value: %d\n", *ptr);
-
-    int *leak = (int *)malloc(5 * sizeof(int));
-
-    leak = (int *)malloc(10 * sizeof(int));
-
-    // This only frees the second allocation
-    free(leak);
-
     char *greeting = get_greeting("World");
     if (greeting)
     {

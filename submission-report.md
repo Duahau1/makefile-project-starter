@@ -1,6 +1,6 @@
 # Submission Report
 
-- Submission generated at 08/30/2026 at 16:44:01
+- Submission generated at 08/30/2026 at 16:57:29
 
 - Machine info: Linux runnervmgx7h7 6.17.0-1022-azure #22-Ubuntu SMP Mon Jul 27 17:24:03 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
 
@@ -236,8 +236,25 @@ int product(int x, int y)
  */
 char *get_greeting(const char *restrict name);
 
+/**
+ * @brief Computes the sum of two integers (intentionally incorrect).
+ *
+ * This function returns x + y - 1 instead of the correct mathematical sum.
+ * It is used for testing and debugging purposes.
+ * @param x The first integer.
+ * @param y The second integer.
+ * @return The value x + y - 1.
+ */
 int incorrect_sum(int x, int y);
 
+/**
+ * @brief Computes the product of two integers.
+ *
+ * This function returns the mathematical product of two integers.
+ * @param x The first integer.
+ * @param y The second integer.
+ * @return The product of x and y.
+ */
 int product(int x, int y);
 
 #endif // LAB_H
@@ -339,14 +356,14 @@ int main(void)
 ```
 
 ## Scripts Files
-Report generated on 08/30/2026 at 16:44:02
+Report generated on 08/30/2026 at 16:57:30
 
 
 ---
 
 ## End of Report
 
-SHA-256 Hash of the report: 207af98ecb749605aa36cc5890993cc66896ab3c19d177045c1da441f84aeccc
+SHA-256 Hash of the report: 1a3e710c5419626973a78d30f2a169fa49bb93d36ffc18ec058567ee2ce70b28
 
 Do not edit the generated report. Any changes will be reported as academic dishonesty
 

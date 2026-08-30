@@ -1,6 +1,6 @@
 # Submission Report
 
-- Submission generated at 08/30/2026 at 16:35:37
+- Submission generated at 08/30/2026 at 16:37:00
 
 - Machine info: Linux runnervmgx7h7 6.17.0-1022-azure #22-Ubuntu SMP Mon Jul 27 17:24:03 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
 
@@ -17,7 +17,7 @@ Post any questions on the class discussion board for help.
 
 ## README
 
-# Makefile Project Starter
+# Project 0 - Compile, Test, Debug
 
 - Name: Van Nguyen
 - Email: vannguyen599@u.boisestate.edu
@@ -41,7 +41,7 @@ suite passes. I also used the debugger configurations to step through `main`
 to detect memory leaks and seg fault problem that I added in step 4. This is a very helpful experience as requires me to set up Vscode remote server and tune my
 debugger so it is easy to step thorugh stack traces. Also this project allows me to get to refresh my memory in C.  
 
-Overal, I think this is a good project to start with in this class. 
+Overall, I think this is a good project to start with in this class. 
 ---
 
 
@@ -342,14 +342,14 @@ int main(void)
 ```
 
 ## Scripts Files
-Report generated on 08/30/2026 at 16:35:38
+Report generated on 08/30/2026 at 16:37:02
 
 
 ---
 
 ## End of Report
 
-SHA-256 Hash of the report: f5b10e2eb438502ba9da4a11249ea25dcfb5d7757571dfa5b15c68cfd1ca8a68
+SHA-256 Hash of the report: 8046dfc772d0ce23223ccbcd140fd4f35f38d010bc716e20ded58cf47f879f61
 
 Do not edit the generated report. Any changes will be reported as academic dishonesty
 

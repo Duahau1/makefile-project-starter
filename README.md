@@ -19,7 +19,4 @@ prototypes, separate compilation, and Makefile build targets.
 I read the Unity test harness documentation and added unit tests for every
 function declared in `lab.h`. Running `make check` confirmed that the test
 suite passes. I also used the debugger configurations to step through `main`
-to detect memory leaks and seg fault problem that I added in step 4. This is a very helpful experience as requires me to set up Vscode remote server and tune my
-debugger so it is easy to step thorugh stack traces. Also this project allows me to get to refresh my memory in C.  
-
-Overall, I think this is a good project to start with in this class. 
+to detect memory leaks and seg fault problems that I added in step 4. This is a very helpful experience as it requires me to set up VSCode remote server and tune my debugger so it is easy to step through stack traces. Also, this project allows me to refresh my memory in C. Other than that, I learned more about GitHub Actions and GitHub Codespaces. Overall, I think this is a good project to start with in this class. 

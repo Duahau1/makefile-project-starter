@@ -1,4 +1,4 @@
-# Makefile Project Starter
+# Project 0 - Compile, Test, Debug
 
 - Name: Van Nguyen
 - Email: vannguyen599@u.boisestate.edu
@@ -22,4 +22,4 @@ suite passes. I also used the debugger configurations to step through `main`
 to detect memory leaks and seg fault problem that I added in step 4. This is a very helpful experience as requires me to set up Vscode remote server and tune my
 debugger so it is easy to step thorugh stack traces. Also this project allows me to get to refresh my memory in C.  
 
-Overal, I think this is a good project to start with in this class. 
+Overall, I think this is a good project to start with in this class. 

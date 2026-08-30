@@ -1,6 +1,6 @@
 # Submission Report
 
-- Submission generated at 08/28/2026 at 21:17:24
+- Submission generated at 08/30/2026 at 16:28:48
 
 - Machine info: Linux runnervmgx7h7 6.17.0-1022-azure #22-Ubuntu SMP Mon Jul 27 17:24:03 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
 
@@ -17,29 +17,31 @@ Post any questions on the class discussion board for help.
 
 ## README
 
-# Project X
+# Makefile Project Starter
 
-- Name: John Doe
-- Email: johndoe@u.boisestate.edu
-- Class: CS123-001
+- Name: Van Nguyen
+- Email: vannguyen599@u.boisestate.edu
+- Class: CS525
 
 ## Known Bugs or Issues
 
-TODO: Are there any known issues?
+- `incorrect_sum` is intentionally incorrect. It returns `x + y - 1` instead
+  of the mathematical sum of its two arguments.
+- The crash and memory leaks used for Tasks 4 and 5 are intentional examples
+  for debugging and sanitizer analysis, not production behavior. But they have been removed in task 7 to make sure we have 100% test coverage.
 
 ## Experience
 
-TODO: Describe your experience with the project (struggles, breakthroughs, etc.).
+This project provided practice with C header files, include guards, function
+prototypes, separate compilation, and Makefile build targets.
 
-## Analysis
+I read the Unity test harness documentation and added unit tests for every
+function declared in `lab.h`. Running `make check` confirmed that the test
+suite passes. I also used the debugger configurations to step through `main`
+to detect memory leaks and seg fault problem that I added in step 4. This is a very helpful experience as requires me to set up Vscode remote server and tune my
+debugger so it is easy to step thorugh stack traces. Also this project allows me to get to refresh my memory in C.  
 
-TODO: Provide your analysis of the results. If the assignment does not require
-analysis, you can remove this section.
-
-Here is an example of how to include a plot in your README:
-
-![Example Image](scripts/example_plot.png)
-
+Overal, I think this is a good project to start with in this class. 
 ---
 
 
@@ -340,14 +342,14 @@ int main(void)
 ```
 
 ## Scripts Files
-Report generated on 08/28/2026 at 21:17:25
+Report generated on 08/30/2026 at 16:28:49
 
 
 ---
 
 ## End of Report
 
-SHA-256 Hash of the report: bb033ebc4cc334bed15d1cb8b541ea8cf7e7b1c21afdb7d187957c59b7a43f77
+SHA-256 Hash of the report: 9e15caa51266d4a0c8dc4f2acf044f914aef573f21334f7a688c957a12f00d83
 
 Do not edit the generated report. Any changes will be reported as academic dishonesty
 
